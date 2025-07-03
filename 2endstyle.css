@@ -1,0 +1,16 @@
+.container ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: bisque;
+    padding: 10px;
+    list-style: none; /* Optional: removes default bullets */
+  }
+  
+  ul li {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px; /* ✅ Fixed: added missing semicolon */
+    margin: 5px; /* Optional: adds spacing between items */
+  }
